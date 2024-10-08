@@ -1,14 +1,12 @@
 # html_vertical_align
 
-A comprehensibe example of vertically aligning the content of an element by using the `vertical-align:middle` CSS property of the **table-cell** element.
+This is a comprehensive example of vertically aligning the content of an entire page using the `vertical-align: middle` CSS property of a **table-cell** element. The same tactic can be applied to specific sections of a page if needed.
 
-In this example, we will vertically align some text in the entire viewport.
+First, create a *\<table\>* containing a single *\<td\>* element. To ensure that the *\<table\>* element inherits the size of its parent element, we must set the properties `height: 100%; width: 100%;` on it.
 
-Firstly, we need to create inside the \<body\> a \<table\> containing a single \<td\> element.
+Since in this example we want to vertically align the content of the entire viewport, we must also ensure that the table's parent element, the *\<body\>*, takes up the full height of the screen. We do this by setting `height: 100%` on both the *\<html\>* and *\<body\>* elements.
 
-Only for the needs of this example, we need to make sure that the \<table\> inherits the full height of the screen. We achieve this by giving the property *"height:100%"* to the \<html\>, \<body\> and finally the \<table\>.
-
-Lastly, we give the  \<td\> element the property **"vertical-align:middle"** and we put our text element inside it.
+Lastly, apply `vertical-align: middle` to the *\<td\>* element and place your text inside.
 
 Enjoy!
 
