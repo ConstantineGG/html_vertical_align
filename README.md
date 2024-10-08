@@ -1,7 +1,8 @@
 # html_vertical_align
 
-A comprehensibe example of vertically aligning the content of an element by using the *.table-cell* CSS property **vertical-align**.
-In this example, we will use it to vertically align some text in the entire viewport.
+A comprehensibe example of vertically aligning the content of an element by using the `vertical-align:middle` CSS property of the **table-cell** element.
+
+In this example, we will vertically align some text in the entire viewport.
 
 Firstly, we need to create inside the \<body\> a \<table\> containing a single \<td\> element.
 
